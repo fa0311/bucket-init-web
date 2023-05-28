@@ -258,7 +258,7 @@
     {
       "bucket": "extras",
       "name": "extras/vcredist2022",
-      "default": false,
+      "default": true,
       "tags": ["programming"]
     },
     {
@@ -353,32 +353,32 @@
     },
     {
       "bucket": "extras",
-      "name": " extras/vlc",
+      "name": "extras/vlc",
       "default": true,
       "tags": ["application"]
     },
     {
       "bucket": "main",
-      "name": " main/ffmpeg",
+      "name": "main/ffmpeg",
       "default": true,
       "tags": ["developer"]
     },
     {
       "bucket": "main",
-      "name": " main/yt-dlp",
+      "name": "main/yt-dlp",
       "default": true,
       "tags": ["developer"]
     },
     {
       "bucket": "extras",
-      "name": "  extras/filezilla",
+      "name": "extras/filezilla",
       "default": false,
       "tags": ["application"]
     },
     {
       "bucket": "nonportable",
       "name": "nonportable/google-japanese-input-np",
-      "default": true,
+      "default": false,
       "tags": ["application"]
     },
     {
@@ -446,6 +446,18 @@
       "name": "extras/obs-studio",
       "default": true,
       "tags": ["developer"]
+    },
+    {
+      "bucket": "tetradice_scoop-iyokan-jp https://github.com/tetradice/scoop-iyokan-jp",
+      "name": "tetradice_scoop-iyokan-jp/diskinfo",
+      "default": false,
+      "tags": ["application"]
+    },
+    {
+      "bucket": "main",
+      "name": "main/7zip",
+      "default": true,
+      "tags": ["application"]
     }
   ]
 }
