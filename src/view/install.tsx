@@ -76,7 +76,7 @@ const Install = () => {
     <>
       <Tabs h="100%">
         <Flex direction="column" h="100%">
-          <TabList>
+          <TabList overflowY={"auto"}>
             {tabs.map((tab) => (
               <Tab key={tab}>{tab}</Tab>
             ))}
@@ -91,7 +91,7 @@ const Install = () => {
               overflowY={"auto"}
               h={"100%"}
               w={mobile ? "100%" : "50%"}
-              m="10px"
+              my="10px"
             >
               <TabPanels>
                 {tabs.map((tab) => (
@@ -121,14 +121,14 @@ const Install = () => {
             </Card>
 
             <Flex
-              h="100%"
+              h={mobile ? "150px" : "100%"}
               w={mobile ? "100%" : "50%"}
               direction="column"
               m="10px"
             >
               <SyntaxHighlighter
                 customStyle={{
-                  height: mobile ? "300px" : "calc(100% - 40px)",
+                  height: mobile ? "100%" : "calc(100% - 40px)",
                 }}
                 language="powershell"
                 style={github}
