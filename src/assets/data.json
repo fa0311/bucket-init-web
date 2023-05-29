@@ -1,470 +1,476 @@
 {
   "tabs": ["Recommend", "Application", "Developer", "Game", "Programming"],
+  "bucket": [
+    {
+      "alias": "tetradice_scoop-iyokan-jp",
+      "url": "https://github.com/tetradice/scoop-iyokan-jp"
+    }
+  ],
   "apps": [
     {
       "bucket": "main",
-      "name": "main/git",
+      "name": "git",
       "default": true,
       "tags": ["Recommend", "Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/git-lfs",
+      "name": "git-lfs",
       "default": true,
       "tags": ["Recommend", "Developer"]
     },
     {
       "bucket": "extras",
-      "name": "extras/github",
+      "name": "github",
       "default": false,
       "tags": ["Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/gh",
+      "name": "gh",
       "default": false,
       "tags": ["Developer"]
     },
     {
       "bucket": "extras",
-      "name": "extras/googlechrome",
+      "name": "googlechrome",
       "default": true,
       "tags": ["Recommend", "Application", "browser"]
     },
     {
       "bucket": "extras",
-      "name": "extras/firefox",
+      "name": "firefox",
       "default": false,
       "tags": ["Application", "browser"]
     },
     {
       "bucket": "extras",
-      "name": "extras/brave",
+      "name": "brave",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/discord",
+      "name": "discord",
       "default": true,
       "tags": ["Recommend", "Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/slack",
+      "name": "slack",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/signal",
+      "name": "signal",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/telegram",
+      "name": "telegram",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/rustdesk",
+      "name": "rustdesk",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "versions",
-      "name": "versions/steam",
+      "name": "steam",
       "default": true,
       "tags": ["Recommend", "Game"]
     },
     {
       "bucket": "Games",
-      "name": "Games/epic-Games-launcher",
+      "name": "epic-Games-launcher",
       "default": false,
       "tags": ["Game"]
     },
     {
       "bucket": "versions",
-      "name": "versions/ubisoftconnect",
+      "name": "ubisoftconnect",
       "default": false,
       "tags": ["Game"]
     },
     {
       "bucket": "extras",
-      "name": "extras/geekbench",
+      "name": "geekbench",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/geekuninstaller",
+      "name": "geekuninstaller",
       "default": true,
       "tags": ["Recommend", "Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/cpu-z",
+      "name": "cpu-z",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/gimp",
+      "name": "gimp",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/krita",
+      "name": "krita",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/vlc",
+      "name": "vlc",
       "default": true,
       "tags": ["Recommend", "Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/obs-studio",
+      "name": "obs-studio",
       "default": true,
       "tags": ["Recommend", "Application"]
     },
 
     {
       "bucket": "extras",
-      "name": "extras/filezilla",
+      "name": "filezilla",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/eartrumpet",
+      "name": "eartrumpet",
       "default": true,
       "tags": ["Recommend", "Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/powertoys",
+      "name": "powertoys",
       "default": true,
       "tags": ["Recommend", "Application"]
     },
     {
       "bucket": "nonportable",
-      "name": "nonportable/google-japanese-input-np",
+      "name": "google-japanese-input-np",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "main",
-      "name": "main/7zip",
+      "name": "7zip",
       "default": true,
       "tags": ["Recommend", "Application"]
     },
 
     {
       "bucket": "extras",
-      "name": "extras/nextcloud",
+      "name": "nextcloud",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/crystaldiskmark",
+      "name": "crystaldiskmark",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/crystaldiskinfo",
+      "name": "crystaldiskinfo",
       "default": false,
       "tags": ["Application"]
     },
     {
-      "bucket": "tetradice_scoop-iyokan-jp https://github.com/tetradice/scoop-iyokan-jp",
+      "bucket": "tetradice_scoop-iyokan-jp",
       "name": "tetradice_scoop-iyokan-jp/diskinfo",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "nonportable",
-      "name": "nonportable/wireguard-np",
+      "name": "wireguard-np",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "main/qbittorrent",
+      "name": "qbittorrent",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "main/qbittorrent-enhanced",
+      "name": "qbittorrent-enhanced",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/aria-ng-gui",
+      "name": "aria-ng-gui",
       "default": false,
       "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/ariang-native",
+      "name": "ariang-native",
       "default": false,
       "tags": ["Application"]
     },
 
     {
       "bucket": "extras",
-      "name": "extras/vscode",
+      "name": "vscode",
       "default": true,
       "tags": ["Recommend", "Developer"]
     },
     {
       "bucket": "extras",
-      "name": "extras/android-studio",
+      "name": "android-studio",
       "default": false,
       "tags": ["Developer"]
     },
     {
       "bucket": "nonportable",
-      "name": "nonportable/unity-hub-np",
+      "name": "unity-hub-np",
       "default": false,
       "tags": ["Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/adb",
+      "name": "adb",
       "default": false,
       "tags": ["Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/gnupg",
+      "name": "gnupg",
       "default": false,
       "tags": ["Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/aria2",
+      "name": "aria2",
       "default": false,
       "tags": ["Developer"]
     },
 
     {
       "bucket": "main",
-      "name": "main/sudo",
+      "name": "sudo",
       "default": false,
       "tags": ["Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/ffmpeg",
+      "name": "ffmpeg",
       "default": true,
       "tags": ["Recommend", "Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/yt-dlp",
+      "name": "yt-dlp",
       "default": true,
       "tags": ["Recommend", "Developer"]
     },
     {
       "bucket": "extras",
-      "name": "extras/flutter",
+      "name": "flutter",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/dart",
+      "name": "dart",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/nodejs-lts",
+      "name": "nodejs-lts",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/nodejs",
+      "name": "nodejs",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/nodejs16",
+      "name": "nodejs16",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/nodejs17",
+      "name": "nodejs17",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/nodejs18",
+      "name": "nodejs18",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/python",
+      "name": "python",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "versions",
-      "name": "versions/python37",
+      "name": "python37",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "versions",
-      "name": "versions/python38",
+      "name": "python38",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "versions",
-      "name": "versions/python39",
+      "name": "python39",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "versions",
-      "name": "versions/python310",
+      "name": "python310",
       "default": false,
       "tags": ["Programming"]
     },
 
     {
       "bucket": "extras",
-      "name": "extras/anaconda3",
+      "name": "anaconda3",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "extras",
-      "name": "extras/miniconda3",
+      "name": "miniconda3",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "extras",
-      "name": "extras/vcredist2005",
+      "name": "vcredist2005",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "extras",
-      "name": "extras/vcredist2008",
+      "name": "vcredist2008",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "extras",
-      "name": "extras/vcredist2010",
+      "name": "vcredist2010",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "extras",
-      "name": "extras/vcredist2012",
+      "name": "vcredist2012",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "extras",
-      "name": "extras/vcredist2013",
+      "name": "vcredist2013",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "extras",
-      "name": "extras/vcredist2022",
+      "name": "vcredist2022",
       "default": true,
       "tags": ["Recommend", "Programming"]
     },
     {
       "bucket": "java",
-      "name": "java/corretto-jdk",
+      "name": "corretto-jdk",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "java",
-      "name": "java/corretto-jre",
+      "name": "corretto-jre",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "java",
-      "name": "java/corretto8-jdk",
+      "name": "corretto8-jdk",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "java",
-      "name": "java/corretto8-jre",
+      "name": "corretto8-jre",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "java",
-      "name": "java/corretto14-jdk",
+      "name": "corretto14-jdk",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "java",
-      "name": "java/corretto14-jre",
+      "name": "corretto14-jre",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "java",
-      "name": "java/corretto15-jdk",
+      "name": "corretto15-jdk",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "java",
-      "name": "java/corretto15-jre",
+      "name": "corretto15-jre",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/cuda",
+      "name": "cuda",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/cuda10",
+      "name": "cuda10",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/cuda11",
+      "name": "cuda11",
       "default": false,
       "tags": ["Programming"]
     },
     {
       "bucket": "main",
-      "name": "main/cuda12",
+      "name": "cuda12",
       "default": false,
       "tags": ["Programming"]
     }
