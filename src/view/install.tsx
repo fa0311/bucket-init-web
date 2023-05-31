@@ -46,6 +46,7 @@ const toBucketCommand = (items: DataAppType[]): string[] => {
 const install = [
   "Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force",
   "iwr -useb get.scoop.sh | iex",
+  "scoop install main/git",
 ];
 
 const toCommand = (items: DataAppType[]): string[] => {

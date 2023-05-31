@@ -21,12 +21,6 @@
     },
     {
       "bucket": "main",
-      "name": "main/git",
-      "default": true,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "main",
       "name": "main/git-lfs",
       "default": true,
       "tags": ["developer"]
