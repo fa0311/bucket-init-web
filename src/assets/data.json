@@ -1,457 +1,472 @@
 {
-  "tabs": ["application", "developer", "game", "programming"],
+  "tabs": ["Recommend", "Application", "Developer", "Game", "Programming"],
+  "bucket": [
+    {
+      "alias": "tetradice_scoop-iyokan-jp",
+      "url": "https://github.com/tetradice/scoop-iyokan-jp"
+    }
+  ],
   "apps": [
     {
-      "bucket": "extras",
-      "name": "extras/googlechrome",
+      "bucket": "main",
+      "name": "git-lfs",
       "default": true,
-      "tags": ["application", "browser"]
+      "tags": ["Recommend", "Developer"]
     },
     {
       "bucket": "extras",
-      "name": "extras/firefox",
+      "name": "github",
       "default": false,
-      "tags": ["application", "browser"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/discord",
-      "default": true,
-      "tags": ["application"]
+      "tags": ["Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/git-lfs",
-      "default": true,
-      "tags": ["developer"]
+      "name": "gh",
+      "default": false,
+      "tags": ["Developer"]
     },
     {
       "bucket": "extras",
-      "name": "extras/vscode",
+      "name": "googlechrome",
       "default": true,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "nonportable",
-      "name": "nonportable/unity-hub-np",
-      "default": false,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/adb",
-      "default": false,
-      "tags": ["developer"]
+      "tags": ["Recommend", "Application", "browser"]
     },
     {
       "bucket": "extras",
-      "name": "extras/rustdesk",
+      "name": "firefox",
       "default": false,
-      "tags": ["application"]
+      "tags": ["Application", "browser"]
+    },
+    {
+      "bucket": "extras",
+      "name": "brave",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "discord",
+      "default": true,
+      "tags": ["Recommend", "Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "slack",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "signal",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "telegram",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "rustdesk",
+      "default": false,
+      "tags": ["Application"]
     },
     {
       "bucket": "versions",
-      "name": "versions/steam",
+      "name": "steam",
       "default": true,
-      "tags": ["game"]
+      "tags": ["Recommend", "Game"]
     },
     {
-      "bucket": "games",
-      "name": "games/epic-games-launcher",
+      "bucket": "Games",
+      "name": "epic-Games-launcher",
       "default": false,
-      "tags": ["game"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/nextcloud",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/crystaldiskmark",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/crystaldiskinfo",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "nonportable",
-      "name": "nonportable/wireguard-np",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/gnupg",
-      "default": false,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "extras",
-      "name": "main/qbittorrent",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "main/qbittorrent-enhanced",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/aria2",
-      "default": false,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/aria-ng-gui",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/ariang-native",
-      "default": false,
-      "tags": ["application"]
-    },
-
-    {
-      "bucket": "main",
-      "name": "main/sudo",
-      "default": false,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/android-studio",
-      "default": false,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/flutter",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/dart",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/nodejs-lts",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/nodejs",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/nodejs16",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/nodejs17",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/nodejs18",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/python",
-      "default": false,
-      "tags": ["programming"]
+      "tags": ["Game"]
     },
     {
       "bucket": "versions",
-      "name": "versions/python37",
+      "name": "ubisoftconnect",
       "default": false,
-      "tags": ["programming"]
+      "tags": ["Game"]
     },
     {
-      "bucket": "versions",
-      "name": "versions/python38",
+      "bucket": "extras",
+      "name": "geekbench",
       "default": false,
-      "tags": ["programming"]
+      "tags": ["Application"]
     },
     {
-      "bucket": "versions",
-      "name": "versions/python39",
-      "default": false,
-      "tags": ["programming"]
+      "bucket": "extras",
+      "name": "geekuninstaller",
+      "default": true,
+      "tags": ["Recommend", "Application"]
     },
     {
-      "bucket": "versions",
-      "name": "versions/python310",
+      "bucket": "extras",
+      "name": "cpu-z",
       "default": false,
-      "tags": ["programming"]
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "gimp",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "krita",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "vlc",
+      "default": true,
+      "tags": ["Recommend", "Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "obs-studio",
+      "default": true,
+      "tags": ["Recommend", "Application"]
     },
 
     {
       "bucket": "extras",
-      "name": "extras/anaconda3",
+      "name": "filezilla",
       "default": false,
-      "tags": ["programming"]
+      "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/miniconda3",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/vcredist2005",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/vcredist2008",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/vcredist2010",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/vcredist2012",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/vcredist2013",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/vcredist2022",
+      "name": "eartrumpet",
       "default": true,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "java",
-      "name": "java/corretto-jdk",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "java",
-      "name": "java/corretto-jre",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "java",
-      "name": "java/corretto8-jdk",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "java",
-      "name": "java/corretto8-jre",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "java",
-      "name": "java/corretto14-jdk",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "java",
-      "name": "java/corretto14-jre",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "java",
-      "name": "java/corretto15-jdk",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "java",
-      "name": "java/corretto15-jre",
-      "default": false,
-      "tags": ["programming"]
+      "tags": ["Recommend", "Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/geekbench",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/geekuninstaller",
+      "name": "powertoys",
       "default": true,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/cpu-z",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/krita",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "versions",
-      "name": "versions/ubisoftconnect",
-      "default": false,
-      "tags": ["game"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/brave",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/gimp",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/vlc",
-      "default": true,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/ffmpeg",
-      "default": true,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/yt-dlp",
-      "default": true,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/filezilla",
-      "default": false,
-      "tags": ["application"]
+      "tags": ["Recommend", "Application"]
     },
     {
       "bucket": "nonportable",
-      "name": "nonportable/google-japanese-input-np",
+      "name": "google-japanese-input-np",
       "default": false,
-      "tags": ["application"]
+      "tags": ["Application"]
     },
     {
-      "bucket": "extras",
-      "name": "extras/eartrumpet",
+      "bucket": "main",
+      "name": "7zip",
       "default": true,
-      "tags": ["application"]
+      "tags": ["Recommend", "Application"]
+    },
+
+    {
+      "bucket": "extras",
+      "name": "nextcloud",
+      "default": false,
+      "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/powertoys",
-      "default": true,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/cuda",
+      "name": "crystaldiskmark",
       "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/cuda10",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/cuda11",
-      "default": false,
-      "tags": ["programming"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/cuda12",
-      "default": false,
-      "tags": ["programming"]
+      "tags": ["Application"]
     },
     {
       "bucket": "extras",
-      "name": "extras/signal",
+      "name": "crystaldiskinfo",
       "default": false,
-      "tags": ["application"]
+      "tags": ["Application"]
     },
     {
-      "bucket": "extras",
-      "name": "extras/telegram",
-      "default": false,
-      "tags": ["application"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/github",
-      "default": false,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "main",
-      "name": "main/gh",
-      "default": false,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "extras",
-      "name": "extras/obs-studio",
-      "default": true,
-      "tags": ["developer"]
-    },
-    {
-      "bucket": "tetradice_scoop-iyokan-jp https://github.com/tetradice/scoop-iyokan-jp",
+      "bucket": "tetradice_scoop-iyokan-jp",
       "name": "tetradice_scoop-iyokan-jp/diskinfo",
       "default": false,
-      "tags": ["application"]
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "nonportable",
+      "name": "wireguard-np",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "qbittorrent",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "qbittorrent-enhanced",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "aria-ng-gui",
+      "default": false,
+      "tags": ["Application"]
+    },
+    {
+      "bucket": "extras",
+      "name": "ariang-native",
+      "default": false,
+      "tags": ["Application"]
+    },
+
+    {
+      "bucket": "extras",
+      "name": "vscode",
+      "default": true,
+      "tags": ["Recommend", "Developer"]
+    },
+    {
+      "bucket": "extras",
+      "name": "android-studio",
+      "default": false,
+      "tags": ["Developer"]
+    },
+    {
+      "bucket": "nonportable",
+      "name": "unity-hub-np",
+      "default": false,
+      "tags": ["Developer"]
     },
     {
       "bucket": "main",
-      "name": "main/7zip",
+      "name": "adb",
+      "default": false,
+      "tags": ["Developer"]
+    },
+    {
+      "bucket": "main",
+      "name": "gnupg",
+      "default": false,
+      "tags": ["Developer"]
+    },
+    {
+      "bucket": "main",
+      "name": "aria2",
+      "default": false,
+      "tags": ["Developer"]
+    },
+
+    {
+      "bucket": "main",
+      "name": "sudo",
+      "default": false,
+      "tags": ["Developer"]
+    },
+    {
+      "bucket": "main",
+      "name": "ffmpeg",
       "default": true,
-      "tags": ["application"]
+      "tags": ["Recommend", "Developer"]
+    },
+    {
+      "bucket": "main",
+      "name": "yt-dlp",
+      "default": true,
+      "tags": ["Recommend", "Developer"]
+    },
+    {
+      "bucket": "extras",
+      "name": "flutter",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "dart",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "nodejs-lts",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "nodejs",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "nodejs16",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "nodejs17",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "nodejs18",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "python",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "versions",
+      "name": "python37",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "versions",
+      "name": "python38",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "versions",
+      "name": "python39",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "versions",
+      "name": "python310",
+      "default": false,
+      "tags": ["Programming"]
+    },
+
+    {
+      "bucket": "extras",
+      "name": "anaconda3",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "extras",
+      "name": "miniconda3",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "extras",
+      "name": "vcredist2005",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "extras",
+      "name": "vcredist2008",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "extras",
+      "name": "vcredist2010",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "extras",
+      "name": "vcredist2012",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "extras",
+      "name": "vcredist2013",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "extras",
+      "name": "vcredist2022",
+      "default": true,
+      "tags": ["Recommend", "Programming"]
+    },
+    {
+      "bucket": "java",
+      "name": "corretto-jdk",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "java",
+      "name": "corretto-jre",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "java",
+      "name": "corretto8-jdk",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "java",
+      "name": "corretto8-jre",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "java",
+      "name": "corretto14-jdk",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "java",
+      "name": "corretto14-jre",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "java",
+      "name": "corretto15-jdk",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "java",
+      "name": "corretto15-jre",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "cuda",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "cuda10",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "cuda11",
+      "default": false,
+      "tags": ["Programming"]
+    },
+    {
+      "bucket": "main",
+      "name": "cuda12",
+      "default": false,
+      "tags": ["Programming"]
     }
   ]
 }

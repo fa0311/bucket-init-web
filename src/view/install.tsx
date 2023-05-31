@@ -24,7 +24,12 @@ import rowRenderer from "@/utils/render";
 
 type DataType = {
   tabs: string[];
+  bucket: [BucketType];
   apps: [DataAppType];
+};
+type BucketType = {
+  alias: string;
+  url: string;
 };
 
 type DataAppType = {
@@ -35,12 +40,16 @@ type DataAppType = {
 };
 
 const toBucketCommand = (items: DataAppType[]): string[] => {
+  const bucket = (data as unknown as DataType).bucket;
   return items
     .reduce(
       (x, y) => (x.includes(y.bucket) ? x : [...x, y.bucket]),
       [] as string[]
     )
-    .map((e) => `scoop bucket add ${e}`);
+    .map((e) => {
+      const url = bucket.find((x) => x.alias === e)?.url;
+      return url ? `scoop bucket add ${e} ${url}` : `scoop bucket add ${e}`;
+    });
 };
 
 const install = [
@@ -50,8 +59,10 @@ const install = [
 ];
 
 const toCommand = (items: DataAppType[]): string[] => {
-  return items.map((e) => `scoop install ${e.name}`);
+  return items.map((e) => `scoop install ${getAppName(e)}`);
 };
+
+const getAppName = (item: DataAppType) => `${item.bucket}/${item.name}`;
 
 const Install = () => {
   const [select, setSelect] = useState<DataAppType[]>([]);
@@ -77,7 +88,7 @@ const Install = () => {
     <>
       <Tabs h="100%">
         <Flex direction="column" h="100%">
-          <TabList>
+          <TabList overflowY={"auto"}>
             {tabs.map((tab) => (
               <Tab key={tab}>{tab}</Tab>
             ))}
@@ -92,7 +103,7 @@ const Install = () => {
               overflowY={"auto"}
               h={"100%"}
               w={mobile ? "100%" : "50%"}
-              m="10px"
+              my="10px"
             >
               <TabPanels>
                 {tabs.map((tab) => (
@@ -102,7 +113,7 @@ const Install = () => {
                         .filter((item) => item.tags.includes(tab))
                         .map((item) => (
                           <Checkbox
-                            key={item.name}
+                            key={getAppName(item)}
                             isChecked={select.some((e) => e.name === item.name)}
                             onChange={(e) =>
                               setSelect((prev) =>
@@ -112,7 +123,7 @@ const Install = () => {
                               )
                             }
                           >
-                            <Text fontSize="sm">{item.name}</Text>
+                            <Text fontSize="sm">{getAppName(item)}</Text>
                           </Checkbox>
                         ))}
                     </Stack>
@@ -122,14 +133,14 @@ const Install = () => {
             </Card>
 
             <Flex
-              h="100%"
+              h={mobile ? "150px" : "100%"}
               w={mobile ? "100%" : "50%"}
               direction="column"
               m="10px"
             >
               <SyntaxHighlighter
                 customStyle={{
-                  height: mobile ? "300px" : "calc(100% - 40px)",
+                  height: mobile ? "100%" : "calc(100% - 40px)",
                 }}
                 language="powershell"
                 style={github}
